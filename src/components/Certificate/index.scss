@@ -1,0 +1,78 @@
+.certificate-page{
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 50%;
+    display: table-cell;
+    max-height: 90%;
+    vertical-align: middle;
+
+     h1 {
+  font-size: 53px;
+  font-family: 'Coolvetica';
+  color: #0037BF;
+  font-weight: 400;
+  margin-top: 0;
+  position: relative;
+  margin-bottom: 40px;
+  left: -10px;
+  &:before {
+    
+    font-family: 'La Belle Aurore', cursive;
+    color: linear-gradient(to right, darkblue, blue, lightblue);
+    font-size: 18px;
+    position: absolute;
+    margin-top: -10px;
+    left: -10px;
+    opacity: 0.6;
+    line-height: 18px;
+  }
+
+  &:after {
+    
+    font-family: 'La Belle Aurore', cursive;
+    color: linear-gradient(to right, darkblue, blue, lightblue);
+    font-size: 18px;
+    line-height: 18px;
+    position: absolute;
+    left: -30px;
+    bottom: -20px;
+    margin-left: 20px;
+    opacity: 0.6;
+  }
+    }
+    p {
+      font-size: 20px;
+      color: #000 ;
+      font-family: "candara";
+      font-weight: 400;
+      max-width: fit-content;
+      animation: pulse 1s;
+      &:nth-of-type(1) {
+        animation-delay: 1.1s;
+      }
+      &:nth-of-type(2) {
+        animation-delay: 1.2s;
+      }
+      &:nth-of-type(3) {
+        animation-delay: 1.3s;
+      }
+      &:nth-of-type(4) {
+        animation-delay: 1.4s;
+      }
+      &:nth-of-type(5) {
+        animation-delay: 1.5s;
+      }
+      &:nth-of-type(6) {
+        animation-delay: 1.6s;
+      }
+      
+    }
+    
+  }
+  
+}
+
+

@@ -1,0 +1,28 @@
+.logo-containers {
+    z-index: 0;
+    width: 200px;
+    height: 409px;
+    opacity: 0;
+    position: absolute;
+    
+    right: 20%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+  
+   
+  
+    .solid-logos {
+      position: absolute;
+      top: -400px;
+      right: auto;
+      bottom: auto;
+      left: 0;
+      margin: auto;
+      width: 100%;
+      opacity: 0;
+      z-index: 1;
+    }
+  }
+  
+  
