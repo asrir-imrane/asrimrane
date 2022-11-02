@@ -1,4 +1,4 @@
-import 'C:/Users/asrir/react-portfolio/src/components/Skills/index.scss'
+import './index.scss'
 
 import { Container, Row, Col } from 'react-grid-system';
 
