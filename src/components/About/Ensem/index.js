@@ -1,20 +1,17 @@
-import { useEffect, useRef } from 'react'
+
 
 import Sans from '../../../assets/images/ENSEM.png'
 import './index1.scss'
 
 const Certif = () => {
-  const bgRef = useRef()
-  const outlineLogoRef = useRef()
-  const solidLogoRef = useRef()
-
+  
  
 
   return (
-    <div className="logo-containers" ref={bgRef}>
+    <div className="logo-containers" >
       <img
         className="solid-logos"
-        ref={solidLogoRef}
+       
         src={Sans}
         alt=""
       />

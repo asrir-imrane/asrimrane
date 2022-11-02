@@ -27,7 +27,7 @@ const  About = ()=> {
             />
                 </h1>
           <p>
-          Currently I am a computer science engineering student in the 3rd year  at ENSEM.<br></br>
+          Currently I am a computer science engineering student in the 3rd year  at ENSEM.<Ensem/><br></br>
           
          
           </p>
@@ -93,11 +93,13 @@ const  About = ()=> {
     </ul>
       </p>
       
-          <a href='asrir.pdf' download="asrir.pdf"  className ='flat-button'>DOWNLOAD CV</a>
+         
 
           </div>
-          <Ensem/>
+
+          
         </div>
+       
         <Loader type="pacman" />
         </>
     )

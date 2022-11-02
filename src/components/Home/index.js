@@ -1,5 +1,5 @@
 import LogoTitle from '../../assets/images/logo-s1.png';
-import { Link } from 'react-router-dom';
+
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
 import { useEffect, useState } from 'react';
@@ -37,8 +37,14 @@ const Home = ()=>{
                     strArray={jobArray}
                     idx={22}/>
                     </h1>
-                    <Link to="/contact" className ='flat-button'>CONTACT ME</Link>
                     
+                    <a href="mailto:myinbox@asrimrane.live?
+&subject=The%20subject%20of%20the%20email
+&body=The%20body%20of%20the%20email" className ='flat-button'>
+
+                                CONTACT ME  
+
+                            </a>
                  </div>
                  <Logo/>
             </div>

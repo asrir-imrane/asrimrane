@@ -97,6 +97,12 @@
                 content: 'CERTIFICATE'; 
              }
     }
+    a.cv-link{
+        &::after{
+            font-size: 10px;
+            content: 'DOWNLOAD CV'; 
+         }
+}
         a.active{
             svg{
                 color: #0037BF;

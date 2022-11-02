@@ -41,7 +41,8 @@
     animation-delay: 1s;
   }
   .about-page{
-      .text-zone {
+      .text-zone 
+      {
         position: absolute;
     left: 10%;
     top: 45%;
@@ -115,7 +116,7 @@
           
         }
         .flat-button {
-          color: blue;
+          color: #0000ff;
           font-size: 13px;
           font-weight: 400;
           letter-spacing: 4px;
@@ -135,8 +136,10 @@
         }
         
       }
+     
       
     }
+   
     @media screen and (max-width: 1200px) {
       .tags,
       .about-page h1:before,
