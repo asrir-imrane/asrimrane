@@ -5,10 +5,10 @@ import './index1.scss'
 
 const Certif = () => {
   const bgRef = useRef()
-  
+  const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
 
-  
+ 
 
   return (
     <div className="logo-containers" ref={bgRef}>

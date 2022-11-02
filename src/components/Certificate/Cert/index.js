@@ -5,7 +5,7 @@ import './index.scss'
 
 const Logo = () => {
   const bgRef = useRef()
-  
+
   const solidLogoRef = useRef()
 
   
