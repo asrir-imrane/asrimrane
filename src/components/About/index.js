@@ -1,7 +1,7 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
-import Pdf from 'C:/Users/asrir/react-portfolio/src/assets/pdf/asrir.pdf'
+
 import Ensem from '../About/Ensem'
 import Loader from 'react-loaders'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
@@ -93,7 +93,7 @@ const  About = ()=> {
     </ul>
       </p>
       
-          <a href={Pdf} download="asrir.pdf"  className ='flat-button'>DOWNLOAD CV</a>
+          <a href='asrir.pdf' download="asrir.pdf"  className ='flat-button'>DOWNLOAD CV</a>
 
           </div>
           <Ensem/>
