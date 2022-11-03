@@ -39,7 +39,7 @@
         animation: fadeIn 1s 1.7s backwards;
         opacity: 0.6;
       }
-  
+     
       img {
         margin-left: 20px;
         opacity: 0;
@@ -98,6 +98,12 @@
     }
   
     .home-page .flat-button {
+      float: none;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 124px;
+    }  
+     .home-page img {
       float: none;
       display: block;
       margin: 20px auto 0 auto;

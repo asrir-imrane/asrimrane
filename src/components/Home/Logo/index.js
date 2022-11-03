@@ -1,5 +1,3 @@
-
-
 import LogoS from '../../../assets/images/logo-s2.png'
 import './index.scss'
 
