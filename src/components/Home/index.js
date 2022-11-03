@@ -38,7 +38,7 @@ const Home = ()=>{
                     idx={22}/>
                     </h1>
                     
-                    <a href="mailto:myinbox@asrimrane.live?
+                    <a href="mailto:imr.asrir@gmail.com?
 &subject=The%20subject%20of%20the%20email
 &body=The%20body%20of%20the%20email" className ='flat-button'>
 
